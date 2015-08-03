@@ -1,0 +1,32 @@
+* {
+	box-sixing: border-box;
+}
+
+html {
+	background-image: url(http://cdn.playbuzz.com/cdn/0bedc114-041b-4d52-83f6-2f9dd00762f3/7ae2b87b-b205-4057-bc53-1fd116f9f061.png);
+	background-size: 100%;
+	opacity: .7;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 95%;
+	width: 80%;
+	margin: auto;
+	background-color: lightyellow;
+	opacity: .85;
+}
+
+h1, h2 {
+	color: darkblue;
+	text-align: center;
+}
+
+div {
+	color: darkblue;
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+}

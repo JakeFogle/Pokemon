@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app='pokemon'>
+	<head>
+		<title>Pokemon</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body ng-controller='mainCtrl'>
+
+			<h1>Pokemon</h1>
+
+			<hr>
+
+			<div class='row' ng-repeat="pet in pokemonInfo">
+				<span class="petData"><pre><strong>Name: </strong>{{ pet.Name }}</pre></span>
+				<span class="petData"><pre><strong>Species: </strong>{{ pet.Species }}</pre></span>
+				<span class="petData"><pre><strong>Attack: </strong>{{ pet.Attack }}</pre></span>
+				<hr>
+			</div>
+
+			<h2>Gotta Catch Em All!</h2>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+	</body>
+</html>
